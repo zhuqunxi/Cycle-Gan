@@ -21,8 +21,14 @@
 - Consist of 4 neural networks, including 2 Generators and 2 Discriminators.
 
 <p align="center">
-<img src="Images/cyclegan_01.jpg" alt="Model" width="80%" />
+<img src="Images/cyclegan_01.jpg" alt="Model" width="50%" />
 </p>
+
+## Training
+
+'''bash
+$ python main.py
+'''
 
 ## Results
 
@@ -32,7 +38,13 @@
 <img src="Images/cyclegan_02.jpg" alt="Results" width="80%" />
 </p>
 
-I am a little bit confused for this result. It seems the Generator B is bad to some degree.
+I am a little bit confused for this result. It seems the Generator B is bad to some degree. 
+
+- Errors for each neural network.
+<p align="center">
+<img src="Images/cyclegan_03.jpg" alt="Error" width="80%" />
+</p>
+
 
 ## Waiting for your constructive suggestions
 

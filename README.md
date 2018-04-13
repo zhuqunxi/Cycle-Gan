@@ -26,23 +26,22 @@
 
 ## Training
 
-'''bash
+```bash
 $ python main.py
-'''
+```
 
 ## Results
 
-- I just ran the model for 75 epochs (1000 images for each epoch) and got the following transferring pictures.
+- I just ran the model for 75 epochs (1000 images for each epoch) and got the following transferring pictures. But I am a little bit confused for this result. It seems the Generator B is bad to some degree. 
 
 <p align="center">
 <img src="Images/cyclegan_02.jpg" alt="Results" width="80%" />
 </p>
 
-I am a little bit confused for this result. It seems the Generator B is bad to some degree. 
 
-- Errors for each neural network.
+- Errors for each neural network (only showing the first 40 epochs).
 <p align="center">
-<img src="Images/cyclegan_03.jpg" alt="Error" width="80%" />
+<img src="Images/cyclegan_03.jpg" alt="Error" width="50%" />
 </p>
 
 
